@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TBHA | About</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="header">
+        <img src = "image/logo.jpg" align = "left" alt = "Logo">
+        <h1 class="logo">Thika Bell House Academy</h1>   
+     </div>
+
+     <button class="accordion">Our Vision</button>
+<div class="panel">
+  <p>"To create a learning environment that nurtures talents and academic excellence."</p>
+</div>
+
+<button class="accordion">Our Mission</button>
+<div class="panel">
+  <p>"To provide all learners with high quality, integrated education which consistently meets
+    and exceeds parents' expectations through dynamism, flexibility and excellence at affordable fees.
+    The curriculum is rich and has excellent instruction in every level. We highly recognize each learner's
+    learning ability. Our aim is to produce learners who are law abiding, skillful and have creative thinking
+    skills."</p>
+</div>
+
+<button class="accordion">Core Values</button>
+<div class="panel">
+    <ul>
+        <li>Integrity</li>
+        <li>Discipline</li>
+        <li>Excellence</li>
+        <li>Commitment</li>
+    </ul>
+  
+</div>
+
+    <div class="about-section">
+        <h1>About Us</h1>
+        <div style="border: 5px solid pink"></div>
+        <div class="stylep">
+            <p>Founded in 2001 with a capacity of 30 students, Thika Bell House Academy has grown since then to a modern
+                day capacity of 200 students.</p>
+                <p>Our teachers are always present at the school from 8.00 am to 6.00 pm to ensure
+                    enough time has been dedicated to learning and consultations by students.</p> 
+            <p>We are constantly keeping our teaching processes up to date, and this has led to the production of 
+                top-performing students.
+            </p>
+        </div>
+        
+      </div>
+      
+      <h2 class="styleh2">Meet Our Team</h2>
+      <div style="border: 5px solid pink"></div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="image/team1.png" alt="Male" style="width:100%", style="height: 20%">
+            <div class="container">
+              <h2>Peter Maina</h2>
+              <p class="title">General Manager</p>
+              <p>Manager of the school, incharge of all school operations.</p>
+              <p>Contact: pm@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="image/team3.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Mr. Thiong'o</h2>
+              <p class="title">Principal</p>
+              <p>Principal of the school, incharge of day to day operations of the school.
+                  Teaches Maths and English.
+              </p>
+              <p>Contact: th@yahoo.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="image/team2.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>Mrs. Kamau</h2>
+              <p class="title">Deputy Principal</p>
+              <p>Incharge of disciplinary actions taken by the school.
+                  Teaches Science and Christian Religious Education (C.R.E.).
+              </p>
+              <p>Contact: mkamau@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3><span>Quick Links</span></h3>
+
+        <p class="footer-links">
+            <a href="homepage.html">Home</a>
+            |
+            <a href="aboutpage.html">About Us</a>
+            |
+            <a href="resourcespage.html">Our Resources</a>
+            |
+            <a href="contactus.html">Contact Us</a>
+        </p>
+
+        <p class="footer-company-name">© 2020. All rights reserved.</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <h3><span>Contact Us</span></h3>
+            <i class="fa fa-map-marker"></i>
+            <p><span>P.O. BOX 4330</span>
+                Thika</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+254-723-351-800</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+254-721-790-128</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:tbha@gmail.com">tbha@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About Thika Bell House Academy</span>
+            We offer excellent academic services to your child and nurture their talents in a dynamic environment.</p>
+    </div>
+</footer>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+    </script>
+    
+</body>
+</html>
